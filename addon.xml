@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<addon id="plugin.video.simsimtv" name="SimSim TV" version="0.0.1" provider-name="Samy Antoun">
+  <requires>
+		<import addon="xbmc.python" version="2.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Browse 1channel.ch</summary>
+		<description>This addon is based on [COLOR blue]tv.samyantoun.com[/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
